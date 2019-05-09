@@ -21,8 +21,8 @@ PyTorch 0.4.0
 ## Our Hardware Environment
 
 Our server details:
-2 Intel(R) Xeon(R) CPUs (E5-2620 v3 @ 2.40GHz), 128 GB RAM,
-4 GTX 1080 Ti GPUs.
+**2** Intel(R) Xeon(R) CPUs (E5-2620 v3 @ 2.40GHz), 128 GB RAM,
+**4** GTX 1080 Ti GPUs.
 
 For fast IO, ImageNet-1K dataset is stored in our SSD.
 
@@ -32,7 +32,7 @@ We report the performance (Top-1 accuracy) on ImageNet-1K validation set.
 | Network | Top-1 Accuracy | Pretrained Model|
 | ------ | ------ | ------ |
 |MobileNetV3-Small 1.0 (Official Implementation)|67.4%|none|
-|MobileNetV3-Small 1.0 (Our Implementation)|todo|9.8 MB, [Baiduyun Disk](https://pan.baidu.com/s/1MNb0oTrFkcnw-GD3O2Ys1Q：), [Google Drive] ()|
+|MobileNetV3-Small 1.0 (Our Implementation)|soon|9.8 MB, [Baiduyun Disk](https://pan.baidu.com/s/1MNb0oTrFkcnw-GD3O2Ys1Q：), [Google Drive] (coming soon)|
 
 ## Our Training Details
 Optimizer
@@ -41,7 +41,7 @@ Batch Size = 2560
 Running costs
 |GPU RAM|RAM|Running Time|
 | ------ | ------ | ------ |
-|x|x|x|
+|soon|$\approx$ 100 GB|1|
 Please see more details in our training file train.py.
 
 
