@@ -45,7 +45,8 @@ Running costs are summarized in following table.
 
 |GPU RAM|RAM|Running Time|
 | ------ | ------ | ------ |
-|$\approx$ 30 GB|$\approx$ 100 GB|72 hours|
+| 30 GB| 100 GB|72 hours|
+
 Please see more details in our training file train.py.
 
 
