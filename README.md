@@ -36,12 +36,16 @@ We report the performance (Top-1 accuracy) on ImageNet-1K validation set.
 
 ## Our Training Details
 Optimizer
+
 Learning rate
+
 Batch Size = 2560
-Running costs
+
+Running costs are summarized in following table.
+
 |GPU RAM|RAM|Running Time|
 | ------ | ------ | ------ |
-|soon|$\approx$ 100 GB|1|
+|$\approx$ 30 GB|$\approx$ 100 GB|72 hours|
 Please see more details in our training file train.py.
 
 
