@@ -7,7 +7,7 @@ This is an unofficial PyTorch implementation for [MobileNetV3](https://arxiv.org
 
 This project is designed with these goals:
 - [x] Train MobileNetV3-Small 1.0 on ImageNet-1K dataset.
-- [] Train MobileNetV3-Small 0.75 on ImageNet-1K dataset.
+- [ ] Train MobileNetV3-Small 0.75 on ImageNet-1K dataset.
 - [ ] Train MobileNetV3-Large 1.0 on ImageNet-1K dataset.
 - [ ] Train MobileNetV3-Large 0.75 on ImageNet-1K dataset.
 
@@ -36,7 +36,7 @@ We report the performance (Top-1 accuracy) on ImageNet-1K validation set.
 |MobileNetV3-Small 1.0 (Official Implementation)|67.4%||
 |MobileNetV3-Small 1.0 (Our Implementation)|63.37%|[Google Drive](https://drive.google.com/file/d/1397oUs0VDgZXDn4pqKZPD5NJoDQ-vlZK/view?usp=sharing); [BaiduYun Disk](https://pan.baidu.com/s/1Dv5KAxpipzxchUNamLIi5Q) (password:j2nh); 12.5MB，MD5：82c676590a9ad63674b49e897937547c |
 
-## Our Training Details
+## Detailed Processings of Our Training
 
 Data Preprocessings:
 ```
@@ -93,5 +93,4 @@ net.load_state_dict(state_dict)
 ```
 
 ## Discussion about "dropout 0.8"
-In the original paper, the authors said "We use dropout of 0.8". This statement is ambiguous. Therefore, our current pretrained model has no dropout operations during training. We guess the dropout should be inserted before the final 1000-way logits layer. Please see details in our MobileNetV3_dropout.py.
-
+In the original paper, the authors said "We use dropout of 0.8". This statement is ambiguous. Therefore, our current pretrained model has no dropout operations during training. We guess the dropout should be inserted before the final 1000-way logits layer. Please see details in our MobileNetV3_dropout.py. The "MobileNetV3_dropout.py" is implemented based on the "mobilenetv3.py" of  [kuan Wang] (https://github.com/kuan-wang). Thanks to Wang Kuan.
