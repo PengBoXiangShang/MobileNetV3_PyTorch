@@ -3,7 +3,7 @@
 
 <div align=center><img src="https://github.com/PengBoXiangShang/net_pytorch/blob/master/figures/MobileNet_V3_block.png"/></div>
 
-This is an unofficial PyTorch implementation for [MobileNetV3](https://arxiv.org/abs/1905.02244). Multi-GPUs training is supported. We trained it on ImageNet-1K and released the model parameters. This work was   implemented by **[Peng Xu](http://www.pengxu.net)** and **[Jin Feng](https://github.com/JinDouer)**.
+This is an unofficial PyTorch implementation for [MobileNetV3](https://arxiv.org/abs/1905.02244). Multi-GPUs training is supported. We trained it on ImageNet-1K and released the model parameters. This work was   implemented by **[Peng Xu](http://www.pengxu.net)**, **[Jin Feng](https://github.com/JinDouer)**, and **[Kun Liu](https://github.com/liu666666)**.
 
 This project is designed with these goals:
 - [x] Train MobileNetV3-Small 1.0 on ImageNet-1K dataset.
