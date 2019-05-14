@@ -34,7 +34,7 @@ We report the performance (Top-1 accuracy) on ImageNet-1K validation set.
 | Network | Top-1 Accuracy | Pretrained Model|
 | ------ | ------ | ------ |
 |MobileNetV3-Small 1.0 (Official Implementation)|67.4%||
-|MobileNetV3-Small 1.0 (Our Implementation)|63.37%|[Google Drive](https://drive.google.com/file/d/1lGyMHhD_m7qBb-DHlFVJXhnQ6NIhjkHW/view?usp=sharing); [BaiduYun Disk](https://pan.baidu.com/s/1Dv5KAxpipzxchUNamLIi5Q) (password:j2nh); 12.5MB，MD5：82c676590a9ad63674b49e897937547c |
+|MobileNetV3-Small 1.0 (Our Implementation)|63.37%|[Google Drive](https://drive.google.com/file/d/1lGyMHhD_m7qBb-DHlFVJXhnQ6NIhjkHW/view?usp=sharing); [BaiduYun Disk](https://pan.baidu.com/s/1Dv5KAxpipzxchUNamLIi5Q) (password:j2nh); $\approx$ 12MB，MD5：82c676590a9ad63674b49e897937547c |
 
 ## Detailed Processings of Our Training
 
