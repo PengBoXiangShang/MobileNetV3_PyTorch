@@ -3,7 +3,7 @@
 
 <div align=center><img src="https://github.com/PengBoXiangShang/net_pytorch/blob/master/figures/MobileNet_V3_block.png"/></div>
 
-This is an unofficial PyTorch implementation for [MobileNetV3](https://arxiv.org/abs/1905.02244). Multi-GPUs training is supported. We trained it on ImageNet-1K and released the model parameters. This work was   implemented by **[Peng Xu](http://www.pengxu.net)**, **[Jin Feng](https://github.com/JinDouer)**, and **[Kun Liu](https://github.com/liu666666)**.
+This is an unofficial PyTorch implementation for [MobileNetV3](https://arxiv.org/abs/1905.02244). Multi-GPUs training is supported. We trained it on ImageNet-1K and released the model parameters. 
 
 This project is designed with these goals:
 - [x] Train MobileNetV3-Small 1.0 on ImageNet-1K dataset.
@@ -94,3 +94,7 @@ net.load_state_dict(state_dict)
 
 ## Discussion about "dropout 0.8"
 In the original paper, the authors said "We use dropout of 0.8". This statement is ambiguous. Therefore, our current pretrained model has no dropout operations during training. We guess the dropout should be inserted before the final 1000-way logits layer. Please see details in our MobileNetV3_dropout.py. Our "MobileNetV3_dropout.py" is implemented based on the "mobilenetv3.py" of  [kuan Wang](https://github.com/kuan-wang). Thanks to Wang Kuan.
+
+
+-----------------
+This work was   implemented by **[Peng Xu](http://www.pengxu.net)**, **[Jin Feng](https://github.com/JinDouer)**, and **[Kun Liu](https://github.com/liu666666)**.
