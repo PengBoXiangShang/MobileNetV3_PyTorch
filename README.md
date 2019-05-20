@@ -97,4 +97,4 @@ In the original paper, the authors said "We use dropout of 0.8". This statement 
 
 
 -----------------
-This work was   implemented by **[Peng Xu](http://www.pengxu.net)**, **[Jin Feng](https://github.com/JinDouer)**, and **[Kun Liu](https://github.com/liu666666)**.
+This work was   implemented by **[Peng Xu](http://www.pengxu.net)**, and **[Jin Feng](https://github.com/JinDouer)**.
